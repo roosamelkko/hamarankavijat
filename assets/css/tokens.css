@@ -1,0 +1,23 @@
+:root {
+  --color-moss: #2f4d3e;
+  --color-ember: #b65e2d;
+  --color-lake: #355f73;
+  --color-ink: #1f2321;
+  --color-parchment: #f4efe5;
+  --color-mist: #d9e0dc;
+  --color-border: #6c7c73;
+  --shadow-soft: 0 12px 30px rgba(26, 32, 29, 0.15);
+  --radius-card: 16px;
+  --radius-pill: 999px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Mulish", "Trebuchet MS", sans-serif;
+  --font-ui: "Space Mono", "Courier New", monospace;
+}

@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "id": "replace-001",
+      "file": "assets/images/example-forest.jpg",
+      "source": "https://example.org/source-url",
+      "license": "Public Domain",
+      "creator": "Unknown",
+      "addedOn": "2026-06-04",
+      "notes": "Replace this placeholder with the first approved image record."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "date": "4.6.2026",
+      "tag": "Kehitys",
+      "title": "Miksi Hämäränkävijät rakentuu lyhyistä tarinakaarista",
+      "summary": "Ensimmäinen julkaistu kehitysmerkintä avaa, miksi nopeat pelisessiot sopivat sekä perheille että koulukokeiluihin.",
+      "url": "#",
+      "cta": "Lue merkintä"
+    },
+    {
+      "date": "4.6.2026",
+      "tag": "Pelitestaus",
+      "title": "Kolme havaintoa ensimmäisestä testiryhmästä",
+      "summary": "Mitä opimme sääntöjen selkeydestä, pelinjohtajan tuesta ja ikäryhmien välisestä dynamiikasta.",
+      "url": "#",
+      "cta": "Lue merkintä"
+    }
+  ]
+}
