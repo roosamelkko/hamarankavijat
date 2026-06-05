@@ -1,30 +1,86 @@
 <!doctype html>
-<html lang="en">
+<html lang="fi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hamarankavijat | Language</title>
+    <title>Hämäränkävijät | Etusivu</title>
     <meta
       name="description"
-      content="Hamarankavijat is a Finnish mythological tabletop roleplaying game. Choose language to continue."
+      content="Hämäränkävijät on suomalainen mytologinen roolipeli. Tutustu peliin, suunnitteluun ja yhteistyömahdollisuuksiin."
     />
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-  <body>
-    <main class="site-frame" style="padding: 9vh 0 12vh">
-      <section class="hero reveal" style="max-width: 860px; margin-inline: auto">
-        <p class="kicker">Hamarankavijat</p>
-        <h2>Choose your language / Valitse kieli</h2>
-        <p>
-          A handcrafted website for a Finnish mythological roleplaying game.
-          Continue in Finnish or English.
-        </p>
+  <body data-page="home">
+    <header class="site-frame site-header">
+      <div class="top-strip">
+        <span>Suomalainen mytologinen roolipeli</span>
+        <span>Tarinoita, oppimista ja yhdessä pelaamista</span>
+      </div>
+      <div class="brand-row">
+        <div>
+          <h1 class="logo-mark">Hämäränkävijät</h1>
+          <p class="logo-sub">Tarinavetoinen pöytäroolipeli</p>
+        </div>
+        <nav class="lang-switch" aria-label="Kielen valinta">
+          <a href="/" aria-current="true">FI</a>
+          <a href="/en/">EN</a>
+        </nav>
+      </div>
+      <nav class="site-nav" aria-label="Päävalikko">
+        <button class="nav-toggle" aria-expanded="false">Valikko</button>
+        <ul class="nav-list">
+          <li><a href="/" data-nav="home" aria-current="page">Etusivu</a></li>
+          <li><a href="/fi/parents/" data-nav="parents">Vanhemmille</a></li>
+          <li><a href="/fi/about/" data-nav="about">Tekijä</a></li>
+          <li><a href="/fi/organizations/" data-nav="organizations">Organisaatioille</a></li>
+          <li><a href="/fi/publishers/" data-nav="publishers">Kustantajille</a></li>
+          <li><a href="/fi/blog/" data-nav="blog">Päiväkirja</a></li>
+          <li><a href="/fi/contact/" data-nav="contact">Yhteys</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-frame">
+      <section class="hero reveal">
+        <h2 data-copy="heroTitle">...</h2>
+        <p data-copy="heroBody">...</p>
         <div class="button-row">
-          <a class="button primary" href="/fi/">Suomi</a>
-          <a class="button secondary" href="/en/">English</a>
+          <a class="button primary" href="/fi/parents/" data-copy="heroPrimary">...</a>
+          <a class="button secondary" href="/fi/about/" data-copy="heroSecondary">...</a>
         </div>
       </section>
+
+      <section class="section-grid">
+        <article class="panel reveal">
+          <p class="kicker">Yleisöt</p>
+          <h3 data-copy="audienceTitle">...</h3>
+          <ul class="list-cards" data-list="audienceItems"></ul>
+        </article>
+
+        <article class="panel reveal contact-panel">
+          <p class="kicker">Uutiskirje</p>
+          <h3 data-copy="newsletterTitle">...</h3>
+          <p data-copy="newsletterBody">...</p>
+          <form
+            class="form-grid"
+            action="https://buttondown.email/api/emails/embed-subscribe/replace-with-your-id"
+            method="post"
+          >
+            <label>
+              Sähköposti
+              <input type="email" name="email" required />
+            </label>
+            <button type="submit" data-copy="newsletterButton">...</button>
+          </form>
+        </article>
+      </section>
     </main>
+
+    <footer class="site-frame site-footer">
+      <p>Hämäränkävijät | <span data-year></span></p>
+      <p>Media policy: public domain assets only. <a href="/credits/">Lähteet</a></p>
+    </footer>
+
     <script src="/assets/js/site.js"></script>
   </body>
 </html>
