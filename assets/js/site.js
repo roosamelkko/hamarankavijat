@@ -53,13 +53,15 @@ async function loadPageContent() {
         node.textContent = data.navigation[key];
       }
     });
-
-    const footerYear = document.querySelector("[data-year]");
-    if (footerYear) {
-      footerYear.textContent = new Date().getFullYear();
-    }
   } catch (error) {
     console.error("Content loading failed", error);
+  }
+}
+
+function setFooterYear() {
+  const footerYear = document.querySelector("[data-year]");
+  if (footerYear) {
+    footerYear.textContent = new Date().getFullYear();
   }
 }
 
@@ -99,4 +101,5 @@ function setupReveal() {
 
 setupNav();
 setupReveal();
+setFooterYear();
 loadPageContent();
