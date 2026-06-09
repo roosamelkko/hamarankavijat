@@ -299,7 +299,7 @@ main {
   position: absolute;
   left: 0;
   top: var(--space-dropcap-top-offset);
-  font-family: var(--font-body);
+  font-family: var(--font-brand); 
   font-size: var(--font-size-dropcap);
   line-height: 0.8;
   color: var(--color-text-accent);
