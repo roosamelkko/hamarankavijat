@@ -305,6 +305,10 @@ main {
   color: var(--color-text-accent);
 }
 
+html[lang="en"] .dropcap::before {
+  content: "O";
+}
+
 .content-block {
   margin-top: var(--space-content-block-top);
 }
