@@ -39,10 +39,7 @@ Static bilingual website for the Finnish mythological roleplaying game Hamaranka
 
 ## Update newsletter endpoint
 
-Before launch, replace placeholders in both FI and EN pages:
-
-- Buttondown endpoint:
-  - `replace-with-your-id`
+Before launch, set the Buttondown endpoint in both FI and EN pages.
 
 Files to edit:
 
@@ -65,7 +62,7 @@ Files to edit:
 
 ## Custom domain
 
-1. Put your domain in `CNAME` (replace placeholder value).
+1. Put your domain in `CNAME`.
 2. In your DNS provider, set records:
    - A -> `185.199.108.153`
    - A -> `185.199.109.153`
