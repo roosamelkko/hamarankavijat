@@ -7,12 +7,18 @@
     <meta name="description" content="A Finnish mythological tabletop roleplaying game for all ages." />
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-frame site-header">
       <div class="top-strip"><span>A Finnish mythological roleplaying game</span></div>
       <div class="brand-row">
-        <div><h1 class="logo-mark">Hämäränkävijät</h1></div>
-        <nav class="lang-switch" aria-label="Language switch"><a href="/">Suomeksi</a><a href="/en/" aria-current="true">English</a></nav>
+        <div><a class="logo-link" href="/en/" aria-label="Home"><h1 class="logo-mark">Hämäränkävijät</h1></a></div>
+        <nav class="lang-switch" aria-label="Language switch">
+          <label for="lang-select-main-en" class="visually-hidden">Language</label>
+          <select id="lang-select-main-en" data-lang-select>
+            <option value="/">Suomeksi</option>
+            <option value="/en/" selected>English</option>
+          </select>
+        </nav>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
         <button class="nav-toggle" aria-expanded="false">Menu</button>

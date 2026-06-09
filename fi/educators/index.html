@@ -11,8 +11,14 @@
     <header class="site-frame site-header">
       <div class="top-strip"><span>Suomalainen mytologinen roolipeli</span></div>
       <div class="brand-row">
-        <div><h1 class="logo-mark">Hämäränkävijät</h1></div>
-        <nav class="lang-switch" aria-label="Kielen valinta"><a href="/fi/educators/" aria-current="true">Suomeksi</a><a href="/en/educators/">English</a></nav>
+        <div><a class="logo-link" href="/" aria-label="Etusivu"><h1 class="logo-mark">Hämäränkävijät</h1></a></div>
+        <nav class="lang-switch" aria-label="Kielen valinta">
+          <label for="lang-select-educators-fi" class="visually-hidden">Kieli</label>
+          <select id="lang-select-educators-fi" data-lang-select>
+            <option value="/fi/educators/" selected>Suomeksi</option>
+            <option value="/en/educators/">English</option>
+          </select>
+        </nav>
       </div>
       <nav class="site-nav" aria-label="Päävalikko">
         <button class="nav-toggle" aria-expanded="false">Valikko</button>

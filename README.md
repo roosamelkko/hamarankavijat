@@ -77,3 +77,11 @@ Files to edit:
 ## Local preview
 
 Open the project in VS Code and use Live Server extension, or run any static server from project root.
+
+## Sync design token docs
+
+When you update `assets/css/tokens.css`, regenerate `design-tokens.txt` with:
+
+```bash
+./scripts/sync-design-tokens.sh
+```

@@ -7,17 +7,22 @@
     <meta name="description" content="Hämäränkävijät on suomalainen mytologinen roolipeli koko perheelle." />
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-frame site-header">
       <div class="top-strip"><span>Suomalainen mytologinen roolipeli</span></div>
       <div class="brand-row">
         <div>
-          <h1 class="logo-mark">Hämäränkävijät</h1>
+          <a class="logo-link" href="/" aria-label="Etusivu">
+            <h1 class="logo-mark">Hämäränkävijät</h1>
+          </a>
           <p class="logo-sub">Tarinavetoinen pöytäroolipeli</p>
         </div>
         <nav class="lang-switch" aria-label="Kielen valinta">
-          <a href="/" aria-current="true">Suomeksi</a>
-          <a href="/en/">English</a>
+          <label for="lang-select-main-fi" class="visually-hidden">Kieli</label>
+          <select id="lang-select-main-fi" data-lang-select>
+            <option value="/" selected>Suomeksi</option>
+            <option value="/en/">English</option>
+          </select>
         </nav>
       </div>
       <nav class="site-nav" aria-label="Päävalikko">
@@ -35,8 +40,8 @@
       <div class="page-banner" role="img" aria-label="Metsämaisema"></div>
 
       <div class="content-block dropcap">
-        <p>
-          Ennen muinoin ihan toisessa maailmassa, joka kuitenkin muistutti meidän Suomen ikivanhoja aikoja,
+        <p class="narration">
+          nnen muinoin ihan toisessa maailmassa, joka kuitenkin muistutti meidän Suomen ikivanhoja aikoja,
           oli jännittävä ja suunnaton taikametsä nimeltä Hämärä. Hämärän syvyyksissä asuivat kaikki
           taikaolennot eli hämäräiset pienistä menninkäisistä salaperäisiin metsän- ja vedenhaltijoihin,
           hurjiin näkkiin ja jättiläisiin, sekä koko Hämärää hallitseviin jumalolentoihin kuten Ahtiin,

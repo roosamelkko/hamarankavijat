@@ -1,23 +1,88 @@
 :root {
-  --color-moss: #2f4d3e;
-  --color-ember: #b65e2d;
-  --color-lake: #355f73;
-  --color-ink: #1f2321;
-  --color-parchment: #f4efe5;
-  --color-mist: #d9e0dc;
-  --color-border: #6c7c73;
-  --shadow-soft: 0 12px 30px rgba(26, 32, 29, 0.15);
-  --radius-card: 16px;
+  --color-text-primary: #3f2916;
+  --color-text-accent: #674326;
+  --color-text-muted: rgba(63, 41, 22, 0.8);
+  --color-link-underline: rgba(103, 67, 38, 0.7);
+  --color-focus-outline: rgba(103, 67, 38, 0.45);
+  --color-bg-gradient-start: #e2deb9;
+  --color-bg-gradient-mid: #d2cfab;
+  --color-bg-gradient-end: #c3c196;
+  --color-bg-feature-box: #e8e4c5;
+  --color-bg-nav-toggle: rgba(232, 228, 197, 0.8);
+  --color-bg-banner-overlay: rgba(196, 197, 161, 0.15);
+  --color-bg-texture-dot: rgba(103, 67, 38, 0.08);
+  --color-border-soft: rgba(103, 67, 38, 0.25);
+  --color-border-strong: rgba(103, 67, 38, 0.5);
+
+  --font-brand: "Vinque Antique", "Bookman Old Style", "Goudy Old Style", serif;
+  --font-body: "Bookman Old Style", "Palatino Linotype", Palatino, serif;
+
+  --font-size-base: 16px;
+  --font-size-logo: clamp(2.1rem, 5vw, 3rem);
+  --font-size-nav: clamp(15px, 1.7vw, 22px);
+  --font-size-title: clamp(26px, 3.2vw, 36px);
+  --font-size-feature-title: 40px;
+  --font-size-panel-title: 32px;
+  --font-size-list-title: 22px;
+  --font-size-blog-title: 28px;
+  --font-size-small: 13px;
+  --font-size-lang-select: 12px;
+  --font-size-lang-caret: 10px;
+  --font-size-nav-toggle: 14px;
+  --font-size-nav-mobile: 22px;
+  --font-size-dropcap: 110px;
+  --font-size-dropcap-mobile: 84px;
+  --font-size-feature-title-mobile: 32px;
+
+  --line-height-body: 1.35;
+  --line-height-compact: 1.24;
+  --line-height-title: 1.08;
+  --font-style-narration: italic;
+
   --radius-pill: 999px;
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-5: 1.5rem;
-  --space-6: 2rem;
-  --space-7: 3rem;
-  --space-8: 4rem;
-  --font-display: "Cormorant Garamond", "Times New Roman", serif;
-  --font-body: "Mulish", "Trebuchet MS", sans-serif;
-  --font-ui: "Space Mono", "Courier New", monospace;
+
+  --size-content-max: 600px;
+  --size-content-vw: 92vw;
+  --size-content-mobile-max: 640px;
+  --size-content-mobile-vw: 94vw;
+  --size-lang-min-width: 120px;
+  --size-lang-icon: 12px;
+  --size-banner-height: 172px;
+  --size-banner-fade-width: 120px;
+  --size-dropcap-padding-left: 86px;
+  --size-dropcap-padding-left-mobile: 66px;
+  --size-dropcap-min-height: 80px;
+  --size-illustration-width: 136px;
+  --size-illustration-height: 140px;
+
+  --space-header-top: 36px;
+  --space-brand-row-x: 20px;
+  --space-lang-top: 10px;
+  --space-lang-padding: 1px 20px 1px 22px;
+  --space-nav-top: 16px;
+  --space-nav-x: 20px;
+  --space-nav-gap: 10px;
+  --space-main-top: 20px;
+  --space-main-bottom: 44px;
+  --space-banner-bottom: 20px;
+  --space-content-block-top: 14px;
+  --space-feature-box-top: 16px;
+  --space-feature-box-padding: 10px 14px;
+  --space-panel-top: 16px;
+  --space-list-gap: 10px;
+  --space-kicker-bottom: 8px;
+  --space-illustration-bottom: 20px;
+  --space-blog-card-bottom: 16px;
+  --space-blog-card-padding-bottom: 14px;
+  --space-footer-padding: 22px 0 40px;
+  --space-footer-gap: 4px;
+  --space-dropcap-top-offset: -8px;
+  --space-mobile-nav-top: 10px;
+  --space-mobile-nav-list-top: 10px;
+  --space-mobile-nav-gap: 8px;
+  --space-mobile-nav-toggle-padding: 6px 14px;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-body: -0.01em;
+  --border-thin: 1px;
 }

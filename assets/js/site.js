@@ -78,6 +78,17 @@ function setupNav() {
   });
 }
 
+function setupLanguageSelect() {
+  document.querySelectorAll("[data-lang-select]").forEach((select) => {
+    select.addEventListener("change", () => {
+      if (!select.value) {
+        return;
+      }
+      window.location.href = select.value;
+    });
+  });
+}
+
 function setupReveal() {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     document.querySelectorAll(".reveal").forEach((node) => node.classList.add("visible"));
@@ -100,6 +111,7 @@ function setupReveal() {
 }
 
 setupNav();
+setupLanguageSelect();
 setupReveal();
 setFooterYear();
 loadPageContent();
