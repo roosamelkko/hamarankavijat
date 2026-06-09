@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://replace-with-your-domain.fi/</loc></url>
   <url><loc>https://replace-with-your-domain.fi/fi/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/fi/parents/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/fi/about/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/fi/organizations/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/fi/publishers/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/fi/story/</loc></url>
   <url><loc>https://replace-with-your-domain.fi/fi/blog/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/fi/contact/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/fi/educators/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/fi/downloads/</loc></url>
   <url><loc>https://replace-with-your-domain.fi/en/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/en/parents/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/en/about/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/en/organizations/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/en/publishers/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/en/story/</loc></url>
   <url><loc>https://replace-with-your-domain.fi/en/blog/</loc></url>
-  <url><loc>https://replace-with-your-domain.fi/en/contact/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/en/educators/</loc></url>
+  <url><loc>https://replace-with-your-domain.fi/en/downloads/</loc></url>
   <url><loc>https://replace-with-your-domain.fi/credits/</loc></url>
 </urlset>

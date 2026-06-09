@@ -5,137 +5,106 @@
     "microline": "Stories, learning, and shared play"
   },
   "navigation": {
-    "home": "Home",
-    "parents": "For Parents",
-    "about": "Author",
-    "organizations": "Organizations",
-    "publishers": "Publishers",
-    "blog": "Journal",
-    "contact": "Contact"
+    "main": "Main",
+    "story": "Story",
+    "blog": "Blog",
+    "educators": "Educators",
+    "downloads": "Downloads"
   },
   "pages": {
     "home": {
       "heroTitle": "Hämäränkävijät opens a doorway into Finnish mythology.",
-      "heroBody": "Hämäränkävijät is a roleplaying game where stories are built together. This website helps parents, educators, players, and partners quickly understand what the game is and how to start.",
-      "heroPrimary": "See how to start playing",
-      "heroSecondary": "Read the design philosophy",
+      "heroBody": "Hämäränkävijät is a story-led tabletop RPG rooted in Finnish mythology. This site guides you through the world, learning uses, and downloadable material.",
+      "heroPrimary": "Read the story",
+      "heroSecondary": "For educators",
       "audienceTitle": "Who is this site for?",
       "audienceItems": [
         {
-          "title": "Parents",
-          "body": "A practical summary of roleplaying games, why they are fun, and what children can learn from them." 
+          "title": "Players",
+          "body": "A fast way into the setting, tone, and collaborative style of play."
         },
         {
-          "title": "Players and followers",
-          "body": "Behind-the-scenes notes about design principles, development updates, and future releases." 
+          "title": "Educators",
+          "body": "Practical use cases for classrooms, clubs, and guided group activities."
         },
         {
-          "title": "Organizations",
-          "body": "A concise overview of partnership options for educational or cultural projects." 
+          "title": "Libraries and youth groups",
+          "body": "Low-friction formats for running shared storytelling sessions."
         },
         {
-          "title": "Publishers",
-          "body": "A quick way to evaluate the game's voice, audience, and publishing potential." 
+          "title": "Followers",
+          "body": "Blog updates covering playtesting, worldbuilding, and next releases."
         }
       ],
       "newsletterTitle": "Stay in the loop",
       "newsletterBody": "Subscribe for development notes, playtest calls, and release updates.",
       "newsletterButton": "Join newsletter"
     },
-    "parents": {
-      "heroTitle": "Why roleplaying works for children and families",
-      "heroBody": "Roleplaying supports communication, problem-solving, and creative expression. Hämäränkävijät offers a safe way to explore Finnish mythology together.",
-      "pillarsTitle": "What players learn",
+    "story": {
+      "heroTitle": "What is the story behind Hämäränkävijät?",
+      "heroBody": "Hämäränkävijät combines Finnish mythology, collaborative storytelling, and approachable tabletop play for different experience levels.",
+      "principlesTitle": "Story pillars",
       "audienceItems": [
         {
-          "title": "Collaboration",
-          "body": "Players solve situations together and learn to listen to each other." 
+          "title": "Mythic grounding",
+          "body": "The world draws from Finnish folklore while staying open to player interpretation."
         },
+        {
+          "title": "Shared narrative",
+          "body": "Each table shapes the journey together, creating unique campaign outcomes."
+        },
+        {
+          "title": "Clear play loop",
+          "body": "Rules stay lightweight so groups can focus on choices, scenes, and momentum."
+        }
+      ],
+      "journalTitle": "Where to continue",
+      "journalBody": "Start with the world overview here, then follow the blog for evolving lore and design updates."
+    },
+    "educators": {
+      "heroTitle": "Roleplaying in education",
+      "heroBody": "Hämäränkävijät supports classroom learning, youth work, and club facilitation through structured storytelling.",
+      "pillarsTitle": "Use in practice",
+      "audienceItems": [
         {
           "title": "Language and expression",
-          "body": "Building stories strengthens vocabulary, imagination, and verbal confidence." 
+          "body": "Scenario prompts encourage reading, speaking, and creative writing outcomes."
         },
         {
-          "title": "Cultural literacy",
-          "body": "Mythological characters and places become meaningful through active play." 
+          "title": "Collaboration skills",
+          "body": "Play naturally trains turn-taking, listening, and collective problem-solving."
+        },
+        {
+          "title": "Cultural context",
+          "body": "Finnish mythology gives a concrete frame for culture and history discussions."
         }
       ],
-      "startTitle": "How to begin",
-      "startBody": "Starting only needs one game leader, a small group, basic rules, and dice. The core is shared storytelling."
+      "contactTitle": "Ready-to-use material",
+      "contactBody": "Use the Downloads page to access starter resources and printable support files."
     },
-    "about": {
-      "heroTitle": "Author and design philosophy",
-      "heroBody": "Hämäränkävijät was created to make Finnish mythology feel playable, human, and accessible for different age groups.",
-      "principlesTitle": "Design principles",
+    "downloads": {
+      "heroTitle": "Downloads",
+      "heroBody": "This page collects downloadable material that supports sessions, facilitation, and onboarding.",
+      "resourcesTitle": "Available now",
       "audienceItems": [
         {
-          "title": "Clarity first",
-          "body": "Rules should support stories, not bury them." 
+          "title": "Quickstart sheet",
+          "body": "A compact first-session guide for new groups."
         },
         {
-          "title": "Cultural grounding",
-          "body": "Themes draw from Finnish folklore without gatekeeping." 
+          "title": "Educator framework",
+          "body": "A session template for classroom and club use."
         },
         {
-          "title": "Flexible depth",
-          "body": "The same foundation can support family play and deeper campaigns." 
+          "title": "Printable character sheets",
+          "body": "Ready-to-print sheets for rapid table setup."
         }
       ],
-      "journalTitle": "Development journal",
-      "journalBody": "The journal shares current progress, playtest lessons, and next milestones."
-    },
-    "organizations": {
-      "heroTitle": "Partnerships with organizations",
-      "heroBody": "Hämäränkävijät can support education, youth work, and cultural programming. Collaboration can start from a lightweight pilot.",
-      "pillarsTitle": "Partnership directions",
-      "audienceItems": [
-        {
-          "title": "Education pilots",
-          "body": "Roleplaying used in language, history, or creative expression contexts." 
-        },
-        {
-          "title": "Facilitated workshops",
-          "body": "Guided sessions for educators, youth workers, or hobby groups." 
-        },
-        {
-          "title": "Custom scenarios",
-          "body": "Tailored content for specific learning or cultural goals." 
-        }
-      ],
-      "contactTitle": "Let's discuss a pilot",
-      "contactBody": "Share your goal, participant group, and timeline, and I will propose a suitable format."
-    },
-    "publishers": {
-      "heroTitle": "For publishing partners",
-      "heroBody": "Hämäränkävijät combines a distinct cultural identity with approachable play. The project is suitable for phased publishing growth.",
-      "pillarsTitle": "Evaluation highlights",
-      "audienceItems": [
-        {
-          "title": "Clear audience",
-          "body": "Families, hobby players, and education-focused groups seeking story-led tabletop play." 
-        },
-        {
-          "title": "Distinct theme",
-          "body": "Finnish mythology offers a clear voice in the broader RPG landscape." 
-        },
-        {
-          "title": "Expandable line",
-          "body": "The core game can expand into adventures, supplements, and guide material." 
-        }
-      ],
-      "contactTitle": "Request a pitch package",
-      "contactBody": "I can provide a pitch summary, playtest insights, and draft publication roadmap."
-    },
-    "contact": {
-      "heroTitle": "Get in touch",
-      "heroBody": "You can use the form below or email directly. I welcome partnership and publishing conversations.",
-      "formTitle": "Contact form",
-      "formBody": "Submit the form below. Replace the form action with your own Formspree endpoint before launch.",
-      "emailLabel": "Email",
-      "emailBody": "You can also write directly:"
+      "newsletterTitle": "Need a new file?",
+      "newsletterBody": "We announce new downloadable resources in blog updates."
     },
     "blog": {
-      "heroTitle": "Development journal",
+      "heroTitle": "Blog",
       "heroBody": "Updates from playtesting, worldbuilding, and release planning.",
       "blogLead": "Latest entries"
     }

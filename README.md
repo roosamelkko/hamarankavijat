@@ -21,7 +21,7 @@ Static bilingual website for the Finnish mythological roleplaying game Hamaranka
 ## Edit copy (no layout changes needed)
 
 1. Open `content/fi/pages.json` or `content/en/pages.json`.
-2. Find the page key (`home`, `parents`, `about`, `organizations`, `publishers`, `blog`, `contact`).
+2. Find the page key (`home`, `story`, `blog`, `educators`, `downloads`).
 3. Change text values.
 4. Save and commit.
 
@@ -37,21 +37,17 @@ Static bilingual website for the Finnish mythological roleplaying game Hamaranka
    - `cta`
 3. Save and commit.
 
-## Update newsletter and contact endpoints
+## Update newsletter endpoint
 
 Before launch, replace placeholders in both FI and EN pages:
 
 - Buttondown endpoint:
   - `replace-with-your-id`
-- Formspree endpoint:
-  - `replace-with-your-id`
 
 Files to edit:
 
-- `fi/index.html`
+- `index.html`
 - `en/index.html`
-- `fi/contact/index.html`
-- `en/contact/index.html`
 
 ## Public-domain image process
 

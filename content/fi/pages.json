@@ -5,137 +5,106 @@
     "microline": "Tarinoita, oppimista ja yhdessä pelaamista"
   },
   "navigation": {
-    "home": "Etusivu",
-    "parents": "Vanhemmille",
-    "about": "Tekijä",
-    "organizations": "Organisaatioille",
-    "publishers": "Kustantajille",
-    "blog": "Päiväkirja",
-    "contact": "Yhteys"
+    "main": "Main",
+    "story": "Story",
+    "blog": "Blog",
+    "educators": "Educators",
+    "downloads": "Downloads"
   },
   "pages": {
     "home": {
       "heroTitle": "Hämäränkävijät avaa oven suomalaiseen mytologiaan.",
-      "heroBody": "Hämäränkävijät on roolipeli, jossa tarinat syntyvät yhdessä. Sivusto auttaa vanhempia, opettajia, pelaajia ja yhteistyökumppaneita ymmärtämään, mistä pelissä on kyse ja miten alkuun pääsee helposti.",
-      "heroPrimary": "Katso miten peli alkaa",
-      "heroSecondary": "Lue suunnittelufilosofia",
+      "heroBody": "Hämäränkävijät on roolipeli, jossa tarinat syntyvät yhdessä. Täältä löydät pelin tarinamaailman, opettajille suunnatun käytön ja ladattavat materiaalit.",
+      "heroPrimary": "Lue tarinasta",
+      "heroSecondary": "Opettajille",
       "audienceTitle": "Kenelle sivusto on tehty?",
       "audienceItems": [
         {
-          "title": "Vanhemmille",
-          "body": "Selkeä yhteenveto: mitä roolipelaaminen on, miksi se on hauskaa ja mitä taitoja lapsi oppii." 
+          "title": "Pelaajille",
+          "body": "Nopea aloitus pelin maailmaan, tunnelmaan ja tarinalliseen pelaamiseen."
         },
         {
-          "title": "Pelaajille ja seuraajille",
-          "body": "Kurki kulissien taakse: suunnitteluperiaatteet, kehityspäivitykset ja tulevat julkaisut." 
+          "title": "Opettajille",
+          "body": "Valmiit näkökulmat roolipelin käyttöön opetuksessa, ryhmätöissä ja ilmaisussa."
         },
         {
-          "title": "Organisaatioille ja koulutukselle",
-          "body": "Tiivis kuvaus yhteistyömahdollisuuksista, käytännön käyttökohteista ja yhteydenotosta." 
+          "title": "Kerhoille ja kirjastoille",
+          "body": "Toimivat mallit yhteisölliseen pelaamiseen matalalla aloituskynnyksellä."
         },
         {
-          "title": "Kustantajille",
-          "body": "Kokonaiskuva pelin tyylistä, yleisöstä ja kasvupotentiaalista julkaisuportfolioon." 
+          "title": "Sisällön seuraajille",
+          "body": "Blogi kokoaa kehityksen, testikokemukset ja tulevat päivitykset."
         }
       ],
       "newsletterTitle": "Pysy mukana",
       "newsletterBody": "Liity uutiskirjeeseen ja saat kehitysmerkintöjä, testipelihakuja ja julkaisukuulumisia.",
       "newsletterButton": "Liity uutiskirjeeseen"
     },
-    "parents": {
-      "heroTitle": "Miksi roolipeli toimii lapsille ja perheille?",
-      "heroBody": "Roolipelaaminen kehittää vuorovaikutusta, ongelmanratkaisua ja tarinankerrontaa. Hämäränkävijät tarjoaa turvallisen tavan tutkia suomalaisia myyttejä yhdessä.",
-      "pillarsTitle": "Mitä pelissä opitaan?",
+    "story": {
+      "heroTitle": "Mikä on Hämäränkävijöiden tarina?",
+      "heroBody": "Hämäränkävijät yhdistää suomalaisen mytologian, yhteisen tarinankerronnan ja helposti lähestyttävän roolipelaamisen.",
+      "principlesTitle": "Tarinan kulmakivet",
       "audienceItems": [
         {
-          "title": "Yhteistyö",
-          "body": "Pelaajat ratkaisevat tilanteita ryhmänä ja oppivat kuuntelemaan toisiaan." 
+          "title": "Suomalainen mytologia",
+          "body": "Tarinat nojaavat tuttuun kansanperinteeseen, mutta jättävät tilaa omalle tulkinnalle."
         },
         {
-          "title": "Lukutaito ja ilmaisu",
-          "body": "Tarinoiden rakentaminen vahvistaa kieltä, mielikuvitusta ja suullista ilmaisua." 
+          "title": "Yhteinen kerronta",
+          "body": "Pelaajat rakentavat maailmaa yhdessä, eikä yksikään peli etene samalla tavalla."
         },
         {
-          "title": "Kulttuurinen ymmärrys",
-          "body": "Suomalaisen mytologian hahmot ja paikat tulevat tutuiksi elämyksellisesti." 
+          "title": "Selkeä pelattavuus",
+          "body": "Säännöt tukevat tarinaa, jotta aloitus on nopea sekä uusille että kokeneille pelaajille."
         }
       ],
-      "startTitle": "Näin pääsette alkuun",
-      "startBody": "Aloitus onnistuu yhdellä pelinjohtajalla ja pienellä ryhmällä. Tarvitaan vain perussäännöt, noppia ja aikaa yhteiselle tarinalle."
+      "journalTitle": "Mistä aloittaa?",
+      "journalBody": "Aloita tarinan perusteista ja jatka blogiin, jossa kerromme miten maailma kehittyy pelitestien myötä."
     },
-    "about": {
-      "heroTitle": "Tekijä ja suunnittelufilosofia",
-      "heroBody": "Hämäränkävijät syntyi halusta tehdä roolipeli, jossa suomalainen mytologia tuntuu läheiseltä, inhimilliseltä ja pelattavalta kaikenikäisille.",
-      "principlesTitle": "Suunnittelun periaatteet",
+    "educators": {
+      "heroTitle": "Roolipeli opetuksessa",
+      "heroBody": "Hämäränkävijät sopii opetukseen, nuorisotyöhön ja kerhotoimintaan. Sisällöt tukevat ilmaisua, yhteistyötä ja kulttuurista ymmärrystä.",
+      "pillarsTitle": "Käytännön käyttötavat",
       "audienceItems": [
         {
-          "title": "Selkeys ensin",
-          "body": "Säännöt tukevat tarinaa, eivät peitä sitä alleen." 
+          "title": "Äidinkieli ja ilmaisu",
+          "body": "Tarinatehtävät vahvistavat lukutaitoa, keskustelua ja luovaa kirjoittamista."
         },
         {
-          "title": "Kulttuurinen juurtuminen",
-          "body": "Teemat rakentuvat suomalaisesta kansanperinteestä ilman raskasta portinvartiointia." 
+          "title": "Ryhmätaidot",
+          "body": "Pelaaminen harjoittaa kuuntelua, vuorottelua ja yhteistä ongelmanratkaisua."
         },
         {
-          "title": "Pelattavuus eri ikäryhmille",
-          "body": "Sama ydinrunko taipuu kevyestä perhepelistä syvempään kampanjaan." 
+          "title": "Kulttuurisisällöt",
+          "body": "Suomalainen mytologia tarjoaa paikallista kontekstia historian ja kulttuurin käsittelyyn."
         }
       ],
-      "journalTitle": "Kehityspäiväkirja",
-      "journalBody": "Blogista näet nykyisen kehitysvaiheen, testiryhmien opit ja tulevat askelmerkit."
+      "contactTitle": "Materiaalit käyttöön",
+      "contactBody": "Lataa valmiit materiaalit Downloads-sivulta ja ota ne käyttöön sellaisenaan tai muokattuina."
     },
-    "organizations": {
-      "heroTitle": "Yhteistyö organisaatioiden kanssa",
-      "heroBody": "Hämäränkävijät soveltuu opetukseen, nuorisotyöhön ja kulttuurisisältöihin. Yhteistyö voidaan rakentaa pilotista koulutuspakettiin.",
-      "pillarsTitle": "Mihin yhteistyö voi keskittyä?",
+    "downloads": {
+      "heroTitle": "Lataukset",
+      "heroBody": "Tältä sivulta löydät peliä tukevat ladattavat materiaalit. Päivitämme pakettia kehityksen edetessä.",
+      "resourcesTitle": "Saatavilla nyt",
       "audienceItems": [
         {
-          "title": "Koulutuskokeilut",
-          "body": "Roolipeli osana äidinkielen, historian tai ilmaisutaidon opetusta." 
+          "title": "Pika-aloitus",
+          "body": "Tiivis aloituspaketti ensimmäistä pelisessiota varten."
         },
         {
-          "title": "Työpajat",
-          "body": "Ohjatut pelityöpajat opettajille, nuoriso-ohjaajille tai harrasteryhmille." 
+          "title": "Opettajan runko",
+          "body": "Rakennemalli tunti- tai kerhokäyttöön tavoitteineen."
         },
         {
-          "title": "Sisältöyhteistyö",
-          "body": "Räätälöityjä skenaarioita tietylle oppimis- tai kulttuuriteemalle." 
+          "title": "Tulostettavat hahmolomakkeet",
+          "body": "Helposti monistettavat lomakkeet nopeaan käyttöönottoon."
         }
       ],
-      "contactTitle": "Keskustellaan pilotista",
-      "contactBody": "Kerro lyhyesti tarpeestasi, kohderyhmästä ja aikataulusta. Vastaan mielelläni yhteistyöehdotuksiin."
-    },
-    "publishers": {
-      "heroTitle": "Tietoa kustantajille",
-      "heroBody": "Hämäränkävijät yhdistää vahvan kulttuurisen identiteetin ja selkeän pelattavuuden. Projekti soveltuu vaiheittain skaalautuvaan julkaisuun.",
-      "pillarsTitle": "Arvioinnin avainkohdat",
-      "audienceItems": [
-        {
-          "title": "Selkeä kohdeyleisö",
-          "body": "Perheet, harrastajat ja koulutukselliset toimijat, jotka etsivät tarinalähtöistä roolipeliä." 
-        },
-        {
-          "title": "Erottuva teema",
-          "body": "Suomalainen mytologia tuo oman äänensä kansainväliseen RPG-kenttään." 
-        },
-        {
-          "title": "Kehitettävä tuotepolku",
-          "body": "Ydinteoksen rinnalle on mahdollista rakentaa lisäosia, seikkailuja ja opasmateriaaleja." 
-        }
-      ],
-      "contactTitle": "Pyydä materiaalipaketti",
-      "contactBody": "Tarvittaessa toimitan pelin pitch-kuvauksen, testipalautteita ja julkaisusuunnitelman luonnoksen."
-    },
-    "contact": {
-      "heroTitle": "Ota yhteyttä",
-      "heroBody": "Voit lähettää viestin lomakkeella tai sähköpostilla. Vastaan sekä yhteistyö- että julkaisukyselyihin.",
-      "formTitle": "Yhteydenottolomake",
-      "formBody": "Lähetä viesti alla. Vaihda lomakkeen action-osoite omaan Formspree-osoitteeseesi ennen julkaisua.",
-      "emailLabel": "Sähköposti",
-      "emailBody": "Voit myös kirjoittaa suoraan:"
+      "newsletterTitle": "Tarvitsetko uuden tiedoston?",
+      "newsletterBody": "Lisäämme uusia ladattavia materiaaleja blogipäivitysten yhteydessä."
     },
     "blog": {
-      "heroTitle": "Kehityspäiväkirja",
+      "heroTitle": "Blogi",
       "heroBody": "Päivityksiä pelitestauksesta, maailmarakennuksesta ja julkaisusuunnitelmasta.",
       "blogLead": "Uusimmat merkinnät"
     }
