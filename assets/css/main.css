@@ -342,7 +342,7 @@ html[lang="en"] .dropcap::before {
   margin-top: 0;
 }
 
-#story .story-side-image {
+.body-copy .story-side-image {
   float: right;
   width: min(30%, 220px);
   height: auto;
@@ -536,7 +536,7 @@ button {
     margin: 0 auto 12px;
   }
 
-  #story .story-side-image {
+  .body-copy .story-side-image {
     float: none;
     display: block;
     width: min(68vw, 240px);

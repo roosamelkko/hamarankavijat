@@ -45,13 +45,13 @@
   --font-size-feature-title-mobile: 32px;
 
   /* Line heights and text styles */
-  --line-height-body: 1.35;
-  --line-height-compact: 1.24;
-  --line-height-title: 1.08;
+  --line-height-body: 1.44;
+  --line-height-compact: 1.42;
+  --line-height-title: 1.14;
   --font-style-narration: italic;
 
   /* Width and component sizing */
-  --size-content-max: 600px;
+  --size-content-max: 700px;
   --size-content-vw: 92vw;
   --size-content-mobile-max: 640px;
   --size-content-mobile-vw: 94vw;
@@ -97,5 +97,5 @@
   --radius-pill: 999px;
   --border-thin: 1px;
   --letter-spacing-tight: -0.02em;
-  --letter-spacing-body: -0.01em;
+  --letter-spacing-body: 0em;
 }
