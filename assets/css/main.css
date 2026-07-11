@@ -191,7 +191,9 @@ a:hover {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   gap: var(--space-nav-gap);
 }
 
