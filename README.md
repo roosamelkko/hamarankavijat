@@ -10,9 +10,9 @@ Static bilingual website for the Finnish mythological roleplaying game Hamaranka
 
 ## Folder map
 
-- `fi/` and `en/`: published pages
+- `index.html` and `en/index.html`: published single-page FI and EN sites
+- `404.html`: fallback redirects for legacy removed section URLs
 - `content/fi/pages.json` and `content/en/pages.json`: editable page copy
-- `content/fi/blog/posts.json` and `content/en/blog/posts.json`: editable blog entries
 - `assets/css/`: styles
 - `assets/js/`: behavior
 - `assets/data/media-log.json`: media compliance log (public-domain only)
@@ -21,21 +21,9 @@ Static bilingual website for the Finnish mythological roleplaying game Hamaranka
 ## Edit copy (no layout changes needed)
 
 1. Open `content/fi/pages.json` or `content/en/pages.json`.
-2. Find the page key (`home`, `story`, `blog`, `educators`, `downloads`).
+2. Find the relevant copy blocks.
 3. Change text values.
 4. Save and commit.
-
-## Add a blog entry
-
-1. Open `content/fi/blog/posts.json` or `content/en/blog/posts.json`.
-2. Add a new object under `posts` with:
-   - `date`
-   - `tag`
-   - `title`
-   - `summary`
-   - `url`
-   - `cta`
-3. Save and commit.
 
 ## Update newsletter endpoint
 

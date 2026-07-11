@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page not found | Hamarankavijat</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        var rawPath = window.location.pathname;
+        var path = rawPath.replace(/\/+$/, "").toLowerCase() || "/";
+
+        var redirects = {
+          "/fi/story": "/#story",
+          "/fi/educators": "/#educators",
+          "/fi/downloads": "/#downloads",
+          "/en/story": "/en/#story",
+          "/en/educators": "/en/#educators",
+          "/en/downloads": "/en/#downloads"
+        };
+
+        if (redirects[path]) {
+          window.location.replace(redirects[path]);
+          return;
+        }
+
+        if (path.indexOf("/en/") === 0) {
+          window.location.replace("/en/");
+          return;
+        }
+
+        if (path.indexOf("/fi/") === 0) {
+          window.location.replace("/");
+          return;
+        }
+      })();
+    </script>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Georgia, serif;
+        background: #f4f1e6;
+        color: #2d2218;
+      }
+
+      main {
+        width: min(640px, 92vw);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 0 0.75rem;
+      }
+
+      p {
+        margin: 0.5rem 0;
+        line-height: 1.5;
+      }
+
+      a {
+        color: #5e3e24;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Page not found</h1>
+      <p>This page no longer exists. The site has been moved to a single-page structure.</p>
+      <p><a href="/">Go to Finnish home</a> | <a href="/en/">Go to English home</a></p>
+    </main>
+  </body>
+</html>

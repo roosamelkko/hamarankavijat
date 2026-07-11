@@ -76,6 +76,34 @@ function setupNav() {
     const open = list.classList.toggle("open");
     toggle.setAttribute("aria-expanded", String(open));
   });
+
+  list.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      list.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
+function setupAnchorNavigation() {
+  const links = Array.from(document.querySelectorAll('.nav-list a[href^="#"]'));
+  if (links.length === 0) {
+    return;
+  }
+
+  const applyCurrentState = () => {
+    const hash = window.location.hash || links[0].getAttribute("href");
+    links.forEach((link) => {
+      if (link.getAttribute("href") === hash) {
+        link.setAttribute("aria-current", "page");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  };
+
+  window.addEventListener("hashchange", applyCurrentState);
+  applyCurrentState();
 }
 
 function setupLanguageSelect() {
@@ -111,6 +139,7 @@ function setupReveal() {
 }
 
 setupNav();
+setupAnchorNavigation();
 setupLanguageSelect();
 setupReveal();
 setFooterYear();

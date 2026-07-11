@@ -13,7 +13,7 @@
       <div class="brand-row">
         <div>
           <a class="logo-link" href="/" aria-label="Etusivu">
-            <h1 class="logo-mark">Hämäränkävijät</h1>
+            <span class="logo-image" role="img" aria-label="Hämäränkävijät"></span>
           </a>
           <p class="logo-sub">Tarinavetoinen pöytäroolipeli</p>
         </div>
@@ -28,10 +28,9 @@
       <nav class="site-nav" aria-label="Päävalikko">
         <button class="nav-toggle" aria-expanded="false">Valikko</button>
         <ul class="nav-list">
-          <li><a href="/fi/story/">Tarina</a></li>
-          <li><a href="/fi/blog/">Blogi</a></li>
-          <li><a href="/fi/educators/">Kasvattajille</a></li>
-          <li><a href="/fi/downloads/">Lataa nyt!</a></li>
+          <li><a href="#story">Tausta</a></li>
+          <li><a href="#educators">Kasvattajille</a></li>
+          <li><a href="#downloads">Lataa nyt!</a></li>
         </ul>
       </nav>
     </header>
@@ -49,7 +48,8 @@
         </p>
       </div>
 
-      <div class="content-block body-copy">
+      <div id="intro" class="content-block body-copy">
+        <img class="intro-cover" src="/assets/images/Kansi_web.jpg" alt="Hämäränkävijät kansikuva" />
         <p>
           Hämäränkävijät on koko perheen seikkailuroolipeli 3+ vuotiaille, jossa pelaajat ratkaisevat
           ihmisten ja suomalaismytologisten taikaolentojen välisiä konflikteja.
@@ -65,7 +65,7 @@
         </p>
       </div>
 
-      <section class="feature-box">
+      <section id="whatis" class="feature-box">
         <h3>Mikä on roolipeli?</h3>
         <p>
           Roolipelaaminen on pelin ja leikin välimuoto, jossa lapset ja/tai aikuiset kertovat yhdessä tarinaa.
@@ -74,11 +74,45 @@
           maailmassa eläviä hahmoja ja asettaa Sankareille haasteita tai pulmia.
         </p>
       </section>
+
+      <section id="story" class="panel">
+        <h3>Tarina</h3>
+        <div class="body-copy">
+          <img class="story-side-image" src="/assets/images/nakki_web.png" alt="Näkki illustration" />
+          <p>
+            Hämäränkävijät on syntynyt Roosa Melkon kokemuksista hänen silloin 3-vuotiaan lapsensa kanssa
+            roolipelaamisesta. Markkinoilla olevat roolipelit, myös lapsille suunnatut, ovat edelleen alan
+            jättiläisen Dungeons &amp; Dragons -roolipelin henkisiä perillisiä.
+          </p>
+          <p>
+            Roosan huomio oli, että hänen lapsensa ollessa 3-6-vuotias, lapsi ei koskaan halunnut päihittää
+            kohtaamiaan olentoja vaan ystävystyä niiden kanssa ja sovitella konflikteja rauhanomaisin keinoin.
+            Syntyi ajatus roolipelistä, joka on alusta asti suunniteltu mahdollistamaan lempeä vuorovaikutus.
+          </p>
+          <p>
+            Roosan unelma on, että Hämäränkävijät mahdollistaisi roolipelaamisen kaikille perheille,
+            kerhoille ja oppilaitoksille riippumatta siitä onko heillä aikaisempaa kokemusta roolipelaamisesta.
+          </p>
+        </div>
+      </section>
+
+      <section id="educators" class="panel">
+        <h3>Kasvattajille</h3>
+         <div class="body-copy">
+          <p>Hämäränkävijät on suunniteltu tukemaan lasten sosiaalista ja emotionaalista kehitystä leikin ja tarinankerronnan kautta. Erityisen keskeistä pelissä on tunne- ja kaveritaitojen kehittyminen tekemällä tunteiden havainnoinnista ja niihin vaikuttamisesta keskeinen osa pelissä esiintyvien konfliktien rauhanomaista ratkaisemista. </p>
+           <p>Jos olet kiinnostunut kokeilemaan Hämäränkävijöitä ryhmässäsi, luokassasi tai kerhossasi, ota yhteyttä roosa.melkko [at] iki [dot] fi. </p>
+       </div>
+      </section>
+
+      <section id="downloads" class="panel">
+        <h3>Lataa nyt!</h3>
+        <p class="body-copy">Hämäränkävijöiden ensimmäinen versio julkaistaan Ropeconissa 24.7.2026, jonka jälkeen materiaali on ladattavissa tältä sivulta.</p>
+      </section>
     </main>
 
     <footer class="site-frame site-footer">
       <p>Hämäränkävijät | <span data-year></span></p>
-      <p>Media policy: public domain assets only. <a href="/credits/">Lähteet</a></p>
+      <p>Kuvitus: Ruuti Kotkanoja</p>
     </footer>
 
     <script src="/assets/js/site.js"></script>

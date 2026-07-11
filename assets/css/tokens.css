@@ -5,11 +5,11 @@
    */
 
   /* Text and interactive colors */
-  --color-text-primary: #3f2916;
+  --color-text-primary: #3F2916;
   --color-text-accent: #674326;
-  --color-text-muted: rgba(63, 41, 22, 0.8);
-  --color-link-underline: rgba(103, 67, 38, 0.7);
-  --color-focus-outline: rgba(103, 67, 38, 0.45);
+  --color-text-muted: rgb(86, 73, 77);
+  --color-link-underline: #231F20;;
+  --color-focus-outline: #231F20;
 
   /* Surfaces, overlays, and borders */
   --color-bg-gradient-start: #e2deb9;
@@ -23,8 +23,8 @@
   --color-border-strong: rgba(103, 67, 38, 0.5);
 
   /* Font families */
-  --font-brand: "Vinque Antique", "Bookman Old Style", "Goudy Old Style", serif;
-  --font-body: "Bookman Old Style", "Palatino Linotype", Palatino, serif;
+  --font-brand: "Libre Baskerville", "Bookman Old Style", "Goudy Old Style", serif;
+  --font-body: "Bookman Old Style", "Libre Baskerville", "Palatino Linotype", Palatino, serif;
 
   /* Font sizes */
   --font-size-base: 16px;

@@ -11,7 +11,12 @@
     <header class="site-frame site-header">
       <div class="top-strip"><span>A Finnish mythological roleplaying game</span></div>
       <div class="brand-row">
-        <div><a class="logo-link" href="/en/" aria-label="Home"><h1 class="logo-mark">Hämäränkävijät</h1></a></div>
+        <div>
+          <a class="logo-link" href="/en/" aria-label="Home">
+            <span class="logo-image" role="img" aria-label="Hämäränkävijät"></span>
+          </a>
+          <p class="logo-sub">Story-driven tabletop roleplaying game</p>
+        </div>
         <nav class="lang-switch" aria-label="Language switch">
           <label for="lang-select-main-en" class="visually-hidden">Language</label>
           <select id="lang-select-main-en" data-lang-select>
@@ -22,7 +27,7 @@
       </div>
       <nav class="site-nav" aria-label="Main navigation">
         <button class="nav-toggle" aria-expanded="false">Menu</button>
-        <ul class="nav-list"><li><a href="/en/story/">Story</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="/en/educators/">Educators</a></li><li><a href="/en/downloads/">Download now!</a></li></ul>
+        <ul class="nav-list"><li><a href="#story">Story</a></li><li><a href="#educators">Educators</a></li><li><a href="#downloads">Download now!</a></li></ul>
       </nav>
     </header>
 
@@ -30,36 +35,77 @@
       <div class="page-banner" role="img" aria-label="Forest scene"></div>
       <div class="content-block dropcap">
         <p class="narration">
-          nce, in another world that still resembled ancient Finland, there was an immense enchanted forest
+          nce upon a time, in another world that still resembled ancient Finland, there was an immense enchanted forest
           called Hämärä. In its depths lived mystical beings, from tiny sprites to elusive guardians,
           water spirits, giants, and divine entities like Ahti, Tapio, and Louhi.
         </p>
       </div>
-      <div class="content-block body-copy">
+      <div id="intro" class="content-block body-copy">
+        <img class="intro-cover" src="/assets/images/Kansi_web.jpg" alt="Hamarankavijat cover" />
         <p>
-          Hämäränkävijät is an adventure roleplaying game for the whole family (3+), where players resolve
-          conflicts between people and mythological beings.
+          Hämäränkävijät is an adventure roleplaying game for the whole family from ages 3 and up, where players resolve
+          conflicts between humans and creatures from Finnish folklore and mythology.
         </p>
         <p>
-          The game takes place in a Kalevala-inspired fantasy world where heroes can be gentle wanderers,
+          The game is set in a Finnish fantasy world inspired by Kalevala, where the players can choose to play heroes such as gentle wanderers,
           calm healers, clever sages, skilled smiths, or strong protectors.
         </p>
         <p>
-          Players roll one to five dice depending on their hero's strengths. Heroes can also use Luck,
+          Hämäränkävijät is designed for players of all ages and levels of experience with roleplaying games. In the game, players roll one to five dice depending on their hero's abilities. Heroes can also use Luck,
           Courage, and special Abilities to shape the story.
         </p>
       </div>
-      <section class="feature-box">
+      <section id="whatis" class="feature-box">
         <h3>What is roleplaying?</h3>
         <p>
-          Roleplaying is a form between game and play where participants build a shared story. The goal is not
-          to defeat other players, but to describe what each hero does in the world. One participant is the
-          narrator who presents the world and challenges.
+          Roleplaying games stand between games and play where the participants build a shared story. The goal is not
+          to defeat the other players, but to describe what the hero each player controls does in the world. One participant is the
+          Narrator who presents the world, plays all the creatures the heroes meet, and sets interesting challenges for the heroes to solve.
+        </p>
+      </section>
+
+      <section id="story" class="panel">
+        <h3>Story</h3>
+        <div class="body-copy">
+          <img class="story-side-image" src="/assets/images/nakki_web.png" alt="Näkki illustration" />
+          <p>
+            Hämäränkävijät grew out of Roosa Melkko’s roleplaying experiences with her then three-year-old child. Roleplaying games on the market, including those aimed at children, are still largely spiritual heirs to the giant of the field, Dungeons & Dragons.
+</p>
+<p>Roosa observed that when her child was between ages 3 and 6, the child never wanted to defeat the beings they encountered, but to befriend them and resolve conflicts peacefully. This inspired the idea of a roleplaying game designed from the very beginning to enable gentle interaction.
+</p>
+<p>Roosa’s dream is that Hämäränkävijät would make roleplaying possible for all families, clubs, and educational institutions, regardless of whether they have prior roleplaying experience.
+          </p>
+        </div>
+      </section>
+
+      <section id="educators" class="panel">
+        <h3>Educators</h3>
+        <div class="body-copy">
+          <p>
+            Hämäränkävijät is designed to support children's social and emotional development through play and
+            storytelling. A central part of the game is the growth of emotional and friendship skills by making
+            emotional awareness and emotional influence core tools for resolving in-game conflicts peacefully.
+          </p>
+          <p>
+            If you are interested in trying Hämäränkävijät with your group, classroom, or club, contact
+            roosa.melkko [at] iki [dot] fi.
+          </p>
+        </div>
+      </section>
+
+      <section id="downloads" class="panel">
+        <h3>Download now!</h3>
+        <p class="body-copy">
+          The first version of Hämäränkävijät will be released at Ropecon on July 24, 2026. After that, the
+          materials will be available for download on this page.
         </p>
       </section>
     </main>
 
-    <footer class="site-frame site-footer"><p>Hämäränkävijät | <span data-year></span></p></footer>
+    <footer class="site-frame site-footer">
+      <p>Hämäränkävijät | <span data-year></span></p>
+      <p>Illustration: Ruuti Kotkanoja</p>
+    </footer>
     <script src="/assets/js/site.js"></script>
   </body>
 </html>
