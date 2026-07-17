@@ -467,6 +467,7 @@ button {
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  background-color: transparent !important;
 }
 
 .sib-form #sib-form-container {
@@ -489,6 +490,11 @@ button {
   max-width: 100% !important;
   margin: 0 auto !important;
   box-sizing: border-box;
+}
+
+.sib-form #sib-container {
+  background-color: var(--color-bg-feature-box) !important;
+  border-color: var(--color-border-soft) !important;
 }
 
 @media (max-width: 760px) {
