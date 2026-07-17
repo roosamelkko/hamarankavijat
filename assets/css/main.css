@@ -457,6 +457,40 @@ button {
   transition: none;
 }
 
+.sib-form,
+.sib-form * {
+  font-family: var(--font-body) !important;
+}
+
+.sib-form {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sib-form #sib-form-container {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sib-form #sib-form-container,
+.sib-form #sib-container {
+  width: min(var(--size-content-max), var(--size-content-vw)) !important;
+  max-width: min(var(--size-content-max), var(--size-content-vw)) !important;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}
+
+.sib-form #sib-form {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}
+
 @media (max-width: 760px) {
   .site-frame {
     width: min(var(--size-content-mobile-max), var(--size-content-mobile-vw));
