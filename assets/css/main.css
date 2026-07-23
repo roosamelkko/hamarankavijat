@@ -39,6 +39,11 @@ body::before {
   z-index: -1;
 }
 
+.CTA {
+  font-size: 40px;
+}
+
+
 a {
   color: var(--color-text-accent);
   text-decoration-color: var(--color-link-underline);
